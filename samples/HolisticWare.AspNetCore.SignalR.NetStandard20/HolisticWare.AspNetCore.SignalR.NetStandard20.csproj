@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="APISignalR\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\scripts\" />
+  </ItemGroup>
+    
+  <!--
+  =============================================================================================
+    SignalR
+  -->  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.0.0-alpha1-final" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\scripts\" />
+  </ItemGroup>
+  <!--
+    SignalR
+  =============================================================================================
+  -->  
+</Project>
