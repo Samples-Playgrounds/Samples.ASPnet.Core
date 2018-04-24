@@ -62,7 +62,7 @@ Dictionary<string, string> repositories = new Dictionary<string, string>
         "https://github.com/aspnet/Blazor-Hackathon.git"
     },
     { 
-        "010-Saamples-SignalR", 
+        "010-Samples-SignalR", 
         "https://github.com/aspnet/SignalR-samples.git"
     },
     { 
